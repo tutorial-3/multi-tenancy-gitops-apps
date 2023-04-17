@@ -8,4 +8,5 @@ spec:
   resources:
     requests:
       storage: 1Gi
+  storageClassName: ocs-storagecluster-ceph-rbd
   volumeMode: Filesystem
