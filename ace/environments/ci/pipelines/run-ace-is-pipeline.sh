@@ -5,7 +5,7 @@ if [ -z ${SOURCE_REPO} ]; then echo "Please set SOURCE_REPO when running script"
 
 tkn -n ci pipeline start \
   ace-integration-server \
-  --param is-source-repo-url=git@github.com:${GIT_ORG}/${SOURCE_REPO}.git \
+  --param is-source-repo-url=https://github.com/tutorial-3/create-costumer.git \
   --param is-infra-repo-url=git@github.com:${GIT_ORG}/ace-infra.git \
   --param git-ops-repo-url=git@github.com:${GIT_ORG}/multi-tenancy-gitops-apps.git \
   --param gitops-apps-repo-full-name=${GIT_ORG}/multi-tenancy-gitops-apps \
