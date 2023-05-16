@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: ace-integration-server-new
+  name: ace-integration-server
 spec:
   accessModes:
     - ReadWriteMany

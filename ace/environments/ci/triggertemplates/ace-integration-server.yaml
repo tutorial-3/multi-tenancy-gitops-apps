@@ -30,7 +30,7 @@ spec:
         workspaces:
           - name: shared-workspace
             persistentVolumeClaim:
-              claimName: ace-integration-server-new
+              claimName: ace-integration-server
           - name: ace-infra-repo-secret
             secret:
               secretName: ace-infra-at-github
