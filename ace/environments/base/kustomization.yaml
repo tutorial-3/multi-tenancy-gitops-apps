@@ -4,3 +4,4 @@ resources:
  - secrets/ibm-entitlement-key-secret.yaml
  - dashboard/ace-dashboard.yaml
  - integrationServer/create-customer-details-rest.yaml
+ - dashboard/ace-dashboard-pvc.yaml
